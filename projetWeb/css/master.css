@@ -1,0 +1,247 @@
+/*css document*/
+html, body
+{
+	height: 100%;
+}
+
+body
+{
+	background-color: #000;
+	background-image: url(../images/wallpaper.png);
+	background-repeat: repeat-x;
+	background-attachment: fixed;
+	font-family: verdana;
+	font-size: 11px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+p
+{
+	margin:0;
+	padding:0;
+}
+
+#block
+{
+	height: 100%;
+	width: 950px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#head
+{
+	background-color: #000;
+	width: 950px;
+	height: 150px;
+	border-right: 3px solid #490900;
+	border-left: 3px solid #490900;
+	margin-right: auto;
+	margin-left: auto;
+	position: fixed;
+	z-index:1;
+}
+
+#head img
+{
+	margin-left: 20px;
+	margin-top: 40px;
+	height: 53px;
+	width: 220px;
+}
+
+#bar
+{
+	background-color: #490900;
+	width: 950px;
+	height: 50px;
+	border: 3px solid #490900;
+	margin-right: auto;
+	margin-left: auto;
+	position: fixed;
+	z-index:1;
+	margin-top: 150px;
+}
+
+#sheet
+{
+	background-color: #AEC432;
+	width: 100%;
+	min-height: 100%;
+	border-right: 3px solid #490900;
+	border-left: 3px solid #490900;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 200px;
+	padding-bottom: 10px;
+}
+
+#content
+{
+/*	background-color: #cedc84;*/
+	background-color: #FFF;
+	width: 740px;
+	min-height: 300px;
+	float: right;
+	margin-right: 10px;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	padding-right: 10px;
+	padding-left: 10px;
+	border-bottom-right-radius: 11px;
+	border-bottom-left-radius: 11px;
+	-moz-box-shadow: 0 0 5px 1px #000;
+	-webkit-box-shadow: 0 0 30px 2px #000;
+	box-shadow: 0 0 5px 1px #000;
+}
+
+#contentMenu
+{
+	width: 180px;
+	height: 100%;
+	float: right;
+}
+
+#contentMenu .titre
+{
+	color: #000;
+	font-family: verdana;
+	font-size: 14px;
+	font-weight: bold;
+	text-align:	center;
+	width: 100%;
+	height: 100%;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+#contentMenu .button
+{
+	background-color: #000;
+	height: 20px;
+	width: 155px;
+	float: right;
+	margin-top: 5px;
+	color: #FFF;
+	font-size: 11px;
+	text-align: right;
+	padding-right: 5px;
+	padding-top: 10px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+#contentMenu .button:hover
+{
+	background-color: #490900;
+	width: 170px;
+	text-decoration: underline;
+}
+
+/*MAGIE --> break float*/
+.clear
+{
+	clear: both;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+table
+{
+	border: 1px solid #525252;
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+	height: 100%;
+}
+
+table th
+{
+	background-color: #525252;
+}
+
+table td
+{
+	border: 1px solid #525252;
+	padding: 1%;
+}
+
+/**************************************************** FRONT OFFICE *****************************************************/
+
+.contentMenuFront
+{
+	width: 150px;
+	height: 100%;
+	float: left;
+	border-right: 2px solid #000;
+	margin-left: 5px;
+}
+
+.contentMenuFront .titre
+{
+	width: 100%;
+	height: 25px;
+	color: #000;
+	text-align: center;
+	padding-top: 5px;
+	font-size: 14px;
+	margin-top: 10px;
+}
+
+.contentMenuFront .button
+{
+	background-color: #000;
+	height: 20px;
+	width: 135px;
+	float: right;
+	margin-top: 5px;
+	color: #FFF;
+	font-size: 11px;
+	text-align: right;
+	padding-right: 5px;
+	padding-top: 10px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.contentMenuFront .button:hover
+{
+	background-color: #525252;
+	width: 140px;
+	text-decoration: underline;
+}
+
+#contentFront
+{
+/*	background-color: #cedc84;*/
+	background-color: #FFF;
+	width: 600px;
+	min-height: 100%;
+	border: 2px solid #490900;
+	float: right;
+	margin-left: 5px;
+	margin-right: 5px;
+	border-bottom-left-radius: 11px;
+	border-bottom-right-radius: 11px;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+#titreArticle{
+	background-color: #cedc84;
+	border: 1px solid #490900;
+	text-align:right;
+	height: 25px;
+	padding-top: 5px;
+	padding-right: 10px;
+	font-size: 14px;
+	margin-top: 10px;
+}
+

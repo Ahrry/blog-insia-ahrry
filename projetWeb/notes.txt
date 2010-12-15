@@ -1,0 +1,16 @@
+Idées :	
+ - Craphiques dans le backoffice
+   -> nombre de catégorie par mois
+   -> nombre d'article par mois
+	-> clique sur un mois entraine nombre d'article par semaine
+   -> nombre de commentaire par mois
+   -> nombre de pages vues (dans fichier txt)
+   -> nombre de visiteur unique
+ 
+
+
+Fonctions Bibliothèque : 
+ - envoi email
+ - transformation du timestamp en date
+
+ - ficher de config ? xml? php? meilleur sécurité?

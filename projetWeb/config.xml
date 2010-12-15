@@ -1,0 +1,10 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<root>
+    <database>
+        <server>localhost</server>
+        <base>projetweb</base>
+        <user>root</user>
+        <password>root</password>
+    </database>
+	<smtp>smtp</smtp>
+</root>

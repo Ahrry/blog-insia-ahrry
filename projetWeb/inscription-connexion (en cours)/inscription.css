@@ -1,0 +1,57 @@
+table{
+margin: auto;
+border: 4px outset black;
+border-collapse: collapse;
+}
+
+td{
+text-align: center;
+padding: 5px;
+border: 2px solid black;
+vertical-align: middle;
+
+}
+
+#tableau {
+margin: 0;
+padding: 0;
+width: 60%;
+}
+
+#tableau tr {
+margin: 0 5px 5px 5px;
+padding: 5px;
+font-size: 1.2em;
+height: 1.5em;
+background:white;
+}
+
+textarea{
+width: 250px;
+height: 20px;
+}
+#mdp{
+width: 250px;
+height: 20px;
+}
+
+.ui-state-default{
+border: 1px solid #cccccc;
+background: #f6f6f6;
+font-weight: bold;
+color: #1c94c4;
+}
+
+body {
+background: gray;
+}
+
+.ui-state-highlight {
+border: 1px solid #fed22f;
+background: #ffe45c;
+color: #363636;
+}
+
+.invisible{
+color:red;
+} 
