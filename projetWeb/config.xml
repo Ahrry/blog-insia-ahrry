@@ -4,7 +4,7 @@
         <server>localhost</server>
         <base>projetweb</base>
         <user>root</user>
-        <password>root</password>
+        <password></password>
     </database>
 	<smtp>smtp</smtp>
 </root>

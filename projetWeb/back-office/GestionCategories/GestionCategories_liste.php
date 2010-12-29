@@ -16,8 +16,8 @@
 <head>
 	<meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
 	<title>Gestion des catégories</title>	
-	<link title="css2" type="text/css" rel="stylesheet" media="screen" href="../../css/master.css">
-  <link title="css1" type='text/css' rel='stylesheet' media='all' href='dragdrop.css' /> 
+  <link title="css2" type="text/css" rel="stylesheet" media="screen" href="../../css/master.css">
+  <!-- <link title="css1" type='text/css' rel='stylesheet' media='all' href='dragdrop.css' />  -->
 </head> 
 <body onLoad="load()"> 
   
